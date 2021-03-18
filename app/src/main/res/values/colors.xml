@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="superplayer_biz_audio_progress_bg">#00b2ff</color>
+    <color name="superplayer_biz_audio_progress_first">#ffffff</color>
+    <color name="superplayer_biz_audio_progress_second">#6b6666</color>
+
+    <color name="superplayer_super_vod_vtt_bg">#7E000000</color>
+
+
+    <color name="superplayer_default_bg">#aa000000</color>
+
+    <!-- 裁剪范围颜色 -->
+    <color name="superplayer_color_tint_red">#FF4C58</color>
+
+    <!--special color-->
+    <color name="superplayer_black_a10_color">#1a000000</color>
+
+    <!--gray4-->
+    <color name="superplayer_color_gray">#787878</color>
+
+    <color name="superplayer_default_progress_color">#FF4081</color>
+    <color name="superplayer_default_progress_background_color">#BBBBBB</color>
+</resources>

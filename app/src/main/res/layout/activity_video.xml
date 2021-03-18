@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.tencent.liteav.demo.superplayer.SuperPlayerView
+        android:id="@+id/SuperPlayerViewId"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextureView
+        android:id="@+id/textureViewId"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <com.example.testplayer.PointsSeekBar
+        android:id="@+id/seekbarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="15dp"
+        app:psb_backgroundColor="@color/superplayer_biz_audio_progress_second"
+        app:psb_max="100"
+        app:psb_progress="0"
+        app:psb_progressColor="#FF584C"
+        app:psb_progressHeight="2dp"
+        app:psb_thumbBackground="@drawable/superplayer_ic_vod_thumb" />
+    <Button
+        android:id="@+id/buttonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示隐藏图片按钮"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageviewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone"/>
+</LinearLayout>
